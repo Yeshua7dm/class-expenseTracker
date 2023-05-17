@@ -1,5 +1,6 @@
 {
-  "name": "guide-test",
+  "name": "expense-tracker",
+  "description": "Expense Tracker in the Academind React Training class code-along.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
