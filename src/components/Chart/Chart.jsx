@@ -4,6 +4,7 @@ import ChartBar from "./ChartBar";
 const Chart = ({ datapoints }) => {
   const dataPointValues = datapoints.map((datapoint) => datapoint.value);
   const maximumValue = Math.max(...dataPointValues);
+  console.log(dataPointValues, maximumValue);
 
   return (
     <div className="chart">
