@@ -31,7 +31,7 @@ const ExpenseForm = ({ onSaveNewExpense, onFormComplete }) => {
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate("");
-    onFormComplete(false);
+    onFormComplete();
   };
 
   return (
